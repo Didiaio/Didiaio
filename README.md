@@ -4,7 +4,7 @@
 - 💞️ I’m looking to build as a project developer.
 - 📫 How to reach me is via email or social media.
 - ⚡ Optimistically inclined to do what I love.
-- 💻 Coding is my passion.
+- 💻 Building projects is my passion.
 
 <!---
 Didiaio/Didiaio is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
