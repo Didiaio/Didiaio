@@ -4,7 +4,7 @@
 - 💞️ I’m looking to build as a project developer.
 - ⚡ Optimistically inclined to do what I love.
 - 💻 Building projects is my passion.
-- 📫 Check out my [personal profile](https://didiaio.github.io/Didiaio/src/index.html) for more.
+- 📫 Check out my [personal profile](https://didiaio.github.io/Didiaio/index.html) for more.
 
 <!---
 Didiaio/Didiaio is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
