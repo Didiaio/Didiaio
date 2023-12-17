@@ -24,7 +24,7 @@
 body {
 	font-family: Verdana, sans-serif;
 	padding: 0;
-	margin: 0;	
+	margin: 0;
 }
 
 main {
@@ -39,10 +39,7 @@ a {
 }
 
 img {
-	box-shadow: var(--box-shadow);
-	border-radius: 50%;
-	height: 120px;
-	width: 120px;
+	width: 100%;
 }
 
 /* Aside */
@@ -65,12 +62,19 @@ ul li i:hover {
 	transform: scale(1.5);
 }
 
+.header img {
+	box-shadow: var(--box-shadow);
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+}
+
 /* Article */
 
 article {
 	display: flex;
 	flex-direction: column;
-	gap: 2rem;	
+	gap: 2rem;
 	width: 70%;
 }
 
@@ -106,6 +110,28 @@ button:hover {
 	transform: scale(1.2);
 }
 
+/* Container */
+.container {
+	margin-bottom: 30px;
+}
+
+/* Company Logo Images */
+.company-logos, .company-brands {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.company-logos img {
+	width: 180px;
+}
+
+.company-brands img {
+	width: 180px;
+}
+
 /*  Footer */
 footer {
 	text-align: center;
@@ -132,6 +158,7 @@ footer p {
 
 /* Portrait */
 @media screen and (max-width: 800px) {
+
 	/* Elements */
 	main {
 		flex-direction: column;
@@ -158,16 +185,33 @@ footer p {
 	.header {
 		text-align: center;
 	}
-	
+
 	.title {
 		text-align: center;
 	}
 
-	.description  {
+	.description {
 		text-align: center;
 	}
 
 	.description p {
 		text-align: left;
+	}
+
+	
+	/* Company Logo Images */
+	.company-logos, .company-brands {
+		display: inline-flex;
+		flex-wrap: wrap;
+		gap: 2rem;
+		align-items: center;
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 }
